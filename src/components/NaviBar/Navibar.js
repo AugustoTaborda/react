@@ -4,7 +4,7 @@ export function Navibar() {
     return (
         <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" class="brand-logo">logo</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="/Home">Home</a></li>
             <li><a href="/About">sobre</a></li>
