@@ -5,6 +5,7 @@ const Container = styled.div`
     background-color: #dddae2;
     width: 200px;
     border-radius: 5px;
+    margin: 10px;
     
 
     h1 {
