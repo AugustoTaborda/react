@@ -1,27 +1,21 @@
 import './App.css';
-import { Card } from "./components/Card";
-import styled from 'styled-components';
-import { Contador } from './components/Contador';
-
-const Conteiner1 = styled.div`
-
-  display: flex;
-  color: red;
-
-
-`;
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return  (
-    <Conteiner1>
-      <Card 
-       title="teste1"
-       content="Lorem Ipsum is simply"
-      />
-      <Contador />
-    </Conteiner1>
-      
-  );
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/home' element={ <Home />}/>
+        <Route path='/About' element={ <About />}/>
+        <Route path='/Contact' element={ <Contact />}/>
+
+      </Routes>
+    </Router>
+ );
 
 }
 

@@ -1,8 +1,11 @@
 import React from "react";
+import { Navibar } from "../../components/NaviBar";
 
 export function About() {
- return (<>
-    <h1>About</h1>
- </>
+ return (
+<div>
+   <Navibar path='/' element={<Navibar />}/>
+
+ </div>
  );
 }

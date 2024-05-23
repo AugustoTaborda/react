@@ -1,9 +1,12 @@
 import React from "react";
+import { Navibar } from "../../components/NaviBar";
 
 export function Contact() {
- return (<>
-    <h1>Contact</h1>
- </>
+ return ( 
+   <div>
+   <Navibar path='/' element={<Navibar />}/>
+
+ </div>
  );
  
 
